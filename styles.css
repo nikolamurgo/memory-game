@@ -131,3 +131,8 @@ td:hover{
     text-align: center;
 }
 /* ||---------------------------------------------------- */
+@media (max-width: 480px){
+    table{
+        width: max-content;
+    }
+}
