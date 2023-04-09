@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(186, 48, 202);
+    /* background: linear-gradient(109.6deg, rgba(119, 44, 232, 0.68) 11.5%, rgb(119, 44, 232) 91.2%); */
+    /* background-repeat: no-repeat;
+    background-attachment: fixed; */
+    margin: 0;
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+.logo{
+    display: grid;
+    place-items: center;
+    margin-top: 2%;
+}
+#logo-p{
+    width:25em;
+}
+#together{
+    background-color: #282A35;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 7%;
+    padding: 1em;
+    border: 0.5em solid white;
+    border-radius: 5em;
+}
+.diff{
+    text-align: center;
+}
+#pls-select{
+    font-size: 4.1em;
+    color: white;
+    font-weight: 800;
+    text-transform: uppercase;
+    /* text-decoration: underline dashed whitesmoke 10px; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.levels-box{
+    display: grid;
+    justify-content: center;
+    margin-top: 2%;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+#levels{
+    display: inline;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+#animals, #fruits, #shapes{
+    background-color: #22A39F;
+    border: 0.1em solid rgba(0, 0, 0, 0.585) ;
+    border-radius: 1rem;
+    color: white;
+    font-size: 3em;
+    padding: 0.1em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    width: 5em;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+#animals:hover, #fruits:hover, #shapes:hover{
+    background-color: #ffffff;
+    color: #282A35;
+    transition: ease-in-out 0.5s;
+}

@@ -1,0 +1,62 @@
+body{
+    /* background-color: rgba(0, 0, 0, 0.901); */
+    /* background-image: url("gradient_bg.png"); */
+    margin: 0;
+    background-color: rgb(186, 48, 202);
+
+    /* background: linear-gradient(109.6deg, rgba(119, 44, 232, 0.68) 11.5%, rgb(119, 44, 232) 91.2%);
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+a{
+    text-decoration: none;
+}
+#logo-container, .links-homepage{
+    display: grid;
+    place-items: center;
+}
+#logo-container #logo-home{
+    width: 25em;
+}
+#logo-container{
+    margin-top: 2%;
+    margin-bottom: 6em;
+}
+.links-homepage{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.links{
+    padding: 2%;
+    border: 0.2em solid rgb(235, 226, 226);
+    border-radius: 1.3em;
+    color: white;
+    background-color: #282A35;
+    text-align: center;
+    font-size: 250%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 5em;
+    max-height: fit-content;
+}
+#play{
+    background-color: #22A39F;
+}
+#play:hover, .links:hover{
+    background-color: #ffff;
+    color: #434242;
+    border: 0.2em solid rgb(13, 13, 13);
+    transition: ease 0.5s;
+}
