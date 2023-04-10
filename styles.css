@@ -1,5 +1,6 @@
 /* ||---------------------------------------------------- */
 body{
+    background-color: rgb(248, 52, 246);    
     background: linear-gradient(90.4deg, rgb(248, 52, 246) 0.6%, rgb(152, 38, 252) 90%);
     margin: 0;
     animation: fadeInAnimation ease 2s;
