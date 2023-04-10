@@ -1,13 +1,12 @@
-/* ||---------------------------------------------------- */
+/* ||------------------BODY ANIMATION----------------------- */
 body{
     background-color: rgb(248, 52, 246);    
-    /* background: linear-gradient(90.4deg, rgb(248, 52, 246) 0.6%, rgb(152, 38, 252) 90%); */
     margin: 0;
-    animation: fadeInAnimation ease 2s;
+    animation: body-anim ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
-@keyframes fadeInAnimation {
+@keyframes body-anim {
     0% {
         opacity: 0;
     }
@@ -15,13 +14,10 @@ body{
         opacity: 1;
      }
 }
-a{
-    text-decoration: none;
-}
 /* ||---------------------------------------------------- */
 
 
-/* ||---------------------------------------------------- */
+/* ||-------------------T A B L E----------------------- */
 table{
     border-collapse: collapse;
     box-shadow: rgba(0, 0, 0, 0.331) 0px 54px 55px, rgba(0, 0, 0, 0.331) 0px -12px 30px, rgba(0, 0, 0, 0.331) 0px 4px 6px, rgba(0, 0, 0, 0.331) 0px 12px 13px, rgba(0, 0, 0, 0.494) 0px -3px 5px;
@@ -40,7 +36,10 @@ td:hover{
 /* ||---------------------------------------------------- */
 
 
-/* ||---------------------------------------------------- */
+/* ||-----------------START / RESET------------------------ */
+a{
+    text-decoration: none;
+}
 .start-reset-box{
     display: grid;
     justify-content: center;
@@ -84,7 +83,7 @@ td:hover{
 }
 /* ||---------------------------------------------------- */
 
-/* ||---------------------------------------------------- */
+/* ||------------------CONTENT---------------------- */
 .content-box{
     display: grid;
     justify-content: center;
@@ -111,7 +110,7 @@ td:hover{
 /* ||---------------------------------------------------- */
 
 
-/* ||---------------------------------------------------- */
+/* ||--------------------TIME------------------------ */
 .time-button-box{
     display: grid;
     justify-content: center;
@@ -131,6 +130,8 @@ td:hover{
     text-align: center;
 }
 /* ||---------------------------------------------------- */
+
+/* ||------------------MOBILE VERSION---------------------- */
 @media only screen and (max-width: 480px) {
     #img1-a, #img7-a, #img15-a, #img3-a, #img13-a, #img10-a, #img16-a,#img2-a, #img4-a, #img5-a, #img6-a, #img8-a, #img9-a, #img11-a, #img12-a, #img14-a, #img15-a,
     #img1-f, #img6-f, #img11-f, #img4-f, #img3-f, #img9-f, #img16-f,#img2-f, #img5-f, #img7-f, #img8-f, #img10-f, #img12-f, #img13-f, #img14-f, #img15-f,
@@ -143,7 +144,6 @@ td:hover{
         height: 100%;
     }
     #time-button{
-        /* position: sticky; */
         width: 10em;
     }
     .start-reset-box{
@@ -153,3 +153,4 @@ td:hover{
         width: 7em;
     }
 }
+/* ||---------------------------------------------------- */

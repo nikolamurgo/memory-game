@@ -1,11 +1,12 @@
+/* ||------------------- BODY / ANIMATION----------------------- */
 body{
     margin: 0;
     background-color: rgb(186, 48, 202);
-    animation: fadeInAnimation ease 2s;
+    animation: body-anim ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
-@keyframes fadeInAnimation {
+@keyframes body-anim {
     0% {
         opacity: 0;
     }
@@ -13,6 +14,9 @@ body{
         opacity: 1;
      }
 }
+/* ||---------------------------------------------------- */
+
+/* ||-------------------HEADING OF PAGE----------------------- */
 h1{
     display: block;
     text-align: center;
@@ -24,20 +28,20 @@ h1{
     padding: 0.5em;
     background-color: #282A35;
     box-shadow: rgba(0, 0, 0, 0.331) 0px 54px 55px, rgba(0, 0, 0, 0.331) 0px -12px 30px, rgba(0, 0, 0, 0.331) 0px 4px 6px, rgba(0, 0, 0, 0.331) 0px 12px 13px, rgba(0, 0, 0, 0.494) 0px -3px 5px;
-
 }
-#container{
+/* ||---------------------------------------------------- */
+
+/* ||-------------------RULES CARDS----------------------- */
+#rules-container{
     width: 100%;
     height: auto;
     justify-content: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /* margin-bottom: 2em; */
 }
-.blokoj{
+.rule-block{
     box-shadow: 0px 15px 10px rgba(40, 38, 38, 0.344);
-    /* text-align: left; */
     background-color: white;
     border: 0.5em solid #282A35;
     border-radius: 1em;
@@ -49,16 +53,16 @@ h1{
     margin-right: 6%;
     margin-bottom: 3em;
 }
-.rulenumber{
+.rule-number{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-transform: uppercase;
     font-size: 2em;
     font-weight: 800;
 }
-.tekst{
+.inside-text{
     font-size: 1.5em;
     padding-left: 5%;
     padding-right: 5%;
     text-align: center;
-    
 }
+/* ||---------------------------------------------------- */
