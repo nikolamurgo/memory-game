@@ -60,3 +60,19 @@ a{
     border: 0.2em solid rgb(13, 13, 13);
     transition: ease 0.5s;
 }
+@media only screen and (max-width: 480px) {
+    .links{
+        margin-right: 2%;
+        margin-left: 2%;
+        width: 70% ;
+        margin-bottom: 10%;
+    }
+    #logo-container #logo-home{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 20%;
+        width: 20em;
+        margin-bottom: 10%;
+    }
+    
+}

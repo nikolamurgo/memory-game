@@ -79,3 +79,24 @@ body{
     color: #282A35;
     transition: ease-in-out 0.5s;
 }
+@media only screen and (max-width: 480px) {
+    #pls-select{
+        font-size: 3em;
+    }
+    #together{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 10%;
+        padding: 2em;
+        border: 0.2em solid white;
+        margin-bottom: 5%;
+    }
+    #logo-p{
+        width:20em;
+        margin-top: 5%;
+    }
+    #levels{
+        margin-top: 40px;
+        margin-bottom: 60px;
+    }
+}
