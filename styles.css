@@ -1,6 +1,6 @@
 /* ||---------------------------------------------------- */
 body{
-    background-color: rgb(172, 31, 169);    
+    background-color: rgb(248, 52, 246);    
     /* background: linear-gradient(90.4deg, rgb(248, 52, 246) 0.6%, rgb(152, 38, 252) 90%); */
     margin: 0;
     animation: fadeInAnimation ease 2s;
@@ -29,8 +29,8 @@ table{
 td{
     border:1em solid rgb(34, 32, 32);
     background-color: rgb(219, 205, 205);
-    width: 6em;
-    height: 6em;  
+    width: 7em;
+    height: 7em;  
     text-align: center;
 }
 td:hover{
@@ -59,7 +59,7 @@ td:hover{
     color: white;
     font-weight: bold;
     font-size: 1em;
-    margin-top: 3em;
+    margin-top: 0.5em;
     margin-left: 1em;
     margin-right: 1em;
     margin-bottom: 0.5em;
@@ -147,9 +147,9 @@ td:hover{
         width: 10em;
     }
     .start-reset-box{
-        margin-top: 7em;
+        margin-top: 5em;
     }
     #start-button, #reset-button{
-        width: 8em;
+        width: 7em;
     }
 }
