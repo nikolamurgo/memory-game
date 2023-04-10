@@ -116,7 +116,7 @@ td:hover{
     display: grid;
     justify-content: center;
     margin-top: 2em;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 
 #time-button{
