@@ -37,6 +37,11 @@ td:hover{
 
 
 /* ||-----------------START / RESET------------------------ */
+.correct{
+    opacity: 100%;
+    pointer-events: none;
+}
+
 a{
     text-decoration: none;
 }
@@ -58,7 +63,6 @@ a{
     color: white;
     font-weight: bold;
     font-size: 1em;
-    margin-top: 0.5em;
     margin-left: 1em;
     margin-right: 1em;
     margin-bottom: 0.5em;
@@ -90,22 +94,9 @@ a{
     margin-right: 2%;
     margin-left: 2%;
 }
-#img1-a, #img7-a, #img15-a, #img3-a, #img13-a, #img10-a, #img16-a,
-#img1-f, #img6-f, #img11-f, #img4-f, #img3-f, #img9-f, #img16-f,
-#img1-s, #img11-s, #img4-s, #img9-s, #img16-s,#img2-s{
-    width: 100%;
-    height: 100%;
-    visibility: visible;
-}
-.img-td-hidden:hover {
-    background-color: rgb(219, 205, 205);
-}
-#img2-a, #img4-a, #img5-a, #img6-a, #img8-a, #img9-a, #img11-a, #img12-a, #img14-a, #img15-a,
-#img2-f, #img5-f, #img7-f, #img8-f, #img10-f, #img12-f, #img13-f, #img14-f, #img15-f,
-#img5-s, #img7-s, #img8-s, #img10-s, #img12-s, #img13-s, #img14-s, #img15-s, #img6-s,#img3-s{
+img{
     width: 6em;
     height: 6em;
-    visibility: hidden;
 }
 /* ||---------------------------------------------------- */
 
