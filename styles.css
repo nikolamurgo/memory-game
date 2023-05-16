@@ -124,9 +124,7 @@ img{
 
 /* ||------------------MOBILE VERSION---------------------- */
 @media only screen and (max-width: 480px) {
-    #img1-a, #img7-a, #img15-a, #img3-a, #img13-a, #img10-a, #img16-a,#img2-a, #img4-a, #img5-a, #img6-a, #img8-a, #img9-a, #img11-a, #img12-a, #img14-a, #img15-a,
-    #img1-f, #img6-f, #img11-f, #img4-f, #img3-f, #img9-f, #img16-f,#img2-f, #img5-f, #img7-f, #img8-f, #img10-f, #img12-f, #img13-f, #img14-f, #img15-f,
-    #img1-s, #img11-s, #img4-s, #img9-s, #img16-s,#img2-s,#img5-s, #img7-s, #img8-s, #img10-s, #img12-s, #img13-s, #img14-s, #img15-s, #img6-s,#img3-s{
+    img{
         width: 4em;
         height: 4em;
     }
@@ -142,6 +140,10 @@ img{
     }
     #start-button, #reset-button{
         width: 7em;
+    }
+    td:hover{
+        background-color: rgb(219, 205, 205);
+        transition: ease-in 0.25s;
     }
 }
 /* ||---------------------------------------------------- */
