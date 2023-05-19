@@ -46,7 +46,6 @@ This project is licensed under the MIT License.
 Contact
 If you have any questions, suggestions, or would like to discuss collaborations, feel free to contact me:
 
-Email: your-email@example.com
-LinkedIn: Your LinkedIn Profile
-Twitter: @your-twitter-handle
+Email: murgovskinikola@gmail.com
+LinkedIn: https://www.linkedin.com/in/nikola-murgovski-718a95217
 Thank you for playing the memory game!
